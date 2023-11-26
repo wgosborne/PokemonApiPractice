@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <title>Pokemon List</title>
+</head>
+
+<body onload="handleOnLoad()" style="background-image: url(./PinkCutePokemon.png); height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;">
+    <nav class="navbar" style="background-color: pink; padding: 20px; color: white;">
+        <h5 class="fs-1"><img width="50" height="50" src="https://img.icons8.com/ios/50/pokeball--v2.png" alt="pokeball--v2"/> Pokedex</h5>
+      </nav>
+      <div class="d-flex justify-content-center">
+        <table class="table table-hover w-75 text-center">
+        <thead id="tableHead">
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+      </table>
+      </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
